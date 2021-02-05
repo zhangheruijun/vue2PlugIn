@@ -846,6 +846,39 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@better-scroll/core@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.npm.taobao.org/@better-scroll/core/download/@better-scroll/core-2.2.0.tgz#4e1f76b560cdcbacc5d284ed137a268f96370fa2"
+  integrity sha1-Th92tWDNy6zF0oTtE3omj5Y3D6I=
+  dependencies:
+    "@better-scroll/shared-utils" "^2.2.0"
+
+"@better-scroll/mouse-wheel@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.npm.taobao.org/@better-scroll/mouse-wheel/download/@better-scroll/mouse-wheel-2.2.0.tgz#5271b757b31bf902ddcddcc219ea47aa9936edfa"
+  integrity sha1-UnG3V7Mb+QLdzdzCGepHqpk27fo=
+  dependencies:
+    "@better-scroll/core" "^2.2.0"
+
+"@better-scroll/pull-down@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.npm.taobao.org/@better-scroll/pull-down/download/@better-scroll/pull-down-2.2.0.tgz#1f52417da98d4cf38409ed54a2a6be3dd4e5db69"
+  integrity sha1-H1JBfamNTPOECe1Uoqa+PdTl22k=
+  dependencies:
+    "@better-scroll/core" "^2.2.0"
+
+"@better-scroll/pull-up@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.npm.taobao.org/@better-scroll/pull-up/download/@better-scroll/pull-up-2.2.0.tgz#7cb38247d7750128560396e28671ad7bc35bc62f"
+  integrity sha1-fLOCR9d1AShWA5bihnGte8Nbxi8=
+  dependencies:
+    "@better-scroll/core" "^2.2.0"
+
+"@better-scroll/shared-utils@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.npm.taobao.org/@better-scroll/shared-utils/download/@better-scroll/shared-utils-2.2.0.tgz#7795c762dda99cad4e5b6ef2823ffe89b608e9d2"
+  integrity sha1-d5XHYt2pnK1OW27ygj/+ibYI6dI=
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.npm.taobao.org/@hapi/address/download/@hapi/address-2.1.4.tgz?cache=0&sync_timestamp=1603524710662&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40hapi%2Faddress%2Fdownload%2F%40hapi%2Faddress-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"

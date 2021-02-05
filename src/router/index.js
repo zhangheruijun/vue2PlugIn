@@ -10,6 +10,11 @@ const routes = [
     name: 'home',
     component: home
   },
+  {
+    path: '/betterScroll',
+    name: 'betterScroll',
+    component: () => import('@/views/betterScroll/index.vue')
+  },
   // {
   //   path: '/about',
   //   name: 'About',
