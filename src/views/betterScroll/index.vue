@@ -49,7 +49,6 @@ export default {
       this.scroll.on('pullingUp', this.pullingUpHandler);
     },
     async pullingUpHandler() {
-      console.log(78);
       this.isPullUpLoad = true;
       await this.requestData();
       this.scroll.finishPullUp();
@@ -59,7 +58,6 @@ export default {
     async requestData() {
       try {
         const newData = await this.ajaxGet(/* url */);
-        console.log(newData);
         this.data += newData;
       } catch (err) {
         // handle err
